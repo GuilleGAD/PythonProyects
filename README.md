@@ -1,2 +1,2 @@
 # PythonProyects
-Proyectos desarrollados en Python
+Proyectos desarrollados en Python.
