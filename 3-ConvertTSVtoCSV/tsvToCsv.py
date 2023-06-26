@@ -63,7 +63,7 @@ class Converter:
             self.write_in_csv()
                         
     
-    def convert_to_csv(self, output_file, delimiter) -> None:
+    def convert_to_csv(self, output_file, delimiter=",") -> None:
         """Funcion main para leer el archivo de entrada y escribir esos datos
         en el archivo csv de salida
 
@@ -99,4 +99,4 @@ class Converter:
 
                     
 if __name__ == '__main__':
-    Converter("1-sample.tsv").convert_to_csv("salida.csv", delimiter=',')
+    Converter("1-sample.tsv").convert_to_csv("salida.csv")
